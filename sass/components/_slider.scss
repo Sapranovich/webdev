@@ -1,5 +1,4 @@
-
-.slider__buttons{
+.slider__buttons {
   font-size: 20px;
   color: $color-title;
   display: inline-block;
@@ -8,20 +7,23 @@
   display: flex;
   justify-content: space-between;
   width: 100px;
-  span{
+  span {
     cursor: pointer;
-    &:hover{
+    &:hover {
       opacity: 0.5;
     }
   }
 }
-.slider__list{
+.slider__count {
+  display: flex;
+}
+.slider__list {
   display: flex;
   justify-content: start;
   width: 910px;
   overflow: hidden;
 }
-.slider__item{
+.slider__item {
   width: 407px;
   height: 244px;
   margin: 0 15px;

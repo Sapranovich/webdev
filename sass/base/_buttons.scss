@@ -16,6 +16,9 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 0 33px;
+    &:hover{
+      background-image: url(../../assets/img/icons/ok_colored.svg);
+    }
   }
   &_decor{
     position: relative;

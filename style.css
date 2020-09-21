@@ -428,6 +428,9 @@ ul {
   background-position: center;
   padding: 0 33px;
 }
+.button_ok:hover {
+  background-image: url(../../assets/img/icons/ok_colored.svg);
+}
 .button_decor {
   position: relative;
   padding: 15px 18px;
@@ -643,6 +646,10 @@ ul {
 }
 .slider__buttons span:hover {
   opacity: 0.5;
+}
+
+.slider__count {
+  display: flex;
 }
 
 .slider__list {
