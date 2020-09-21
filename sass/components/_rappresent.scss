@@ -1,0 +1,15 @@
+.rappresent{
+  background-color: $color-rappresent;
+  &_position-content{
+    padding-top: 155px;
+  }
+}
+.rappresent__wrapper{
+  padding: 121px 0 140px;
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 407px;
+    height: 582px;
+  }
+}

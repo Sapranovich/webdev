@@ -1,0 +1,30 @@
+.footer {
+  background-color: $color-footer;
+}
+.footer__wrapper {
+  padding: 60px 0 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__navigation {
+
+}
+.footer__navigation-list {
+  display: flex;
+  // width: 270px;
+}
+.footer__navigation-link {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 400;
+  margin: 0 18px;
+  @extend %transition;
+  &:hover{
+    color: $background-btn-hovered;
+  }
+}
+.footer__copy {
+  // width: 270px;
+  margin-right: 17px;
+}

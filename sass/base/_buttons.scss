@@ -1,0 +1,37 @@
+.button {
+  @include font($size: 1.4rem, $height: 1.6rem, $weight: 700);
+  text-transform: uppercase;
+  padding: 15px 47px;
+  background-color: $background-btn;
+  color: $color-title-button;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  @extend %transition;
+  &:hover {
+    background-color: $background-btn-hovered;
+  }
+  &_ok {
+    background-image: url(../../assets/img/icons/ok.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 33px;
+  }
+  &_decor{
+    position: relative;
+    padding: 15px 18px;
+    border-right: solid 59px$background-btn-hovered;
+    &-iphone::after {
+      content: url(../../assets/img/icons/apple.png);
+      position: absolute;
+      right: -40px;
+      top: 12px;
+    }
+    &-android::after {
+      content: url(../../assets/img/icons/android.png);
+      position: absolute;
+      right: -40px;
+      top: 12px;
+    }
+  }
+}

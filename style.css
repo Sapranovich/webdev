@@ -428,9 +428,6 @@ ul {
   background-position: center;
   padding: 0 33px;
 }
-.button_ok:hover{
-  background-image: url(../../assets/img/icons/ok_colored.svg);
-}
 .button_decor {
   position: relative;
   padding: 15px 18px;
@@ -482,7 +479,7 @@ ul {
 }
 .logo_footer-position {
   margin-right: 125px;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 .navigation {
@@ -541,7 +538,7 @@ ul {
   line-height: 2.5rem;
   width: 504px;
   text-align: center;
-  margin: 0 0 32px;
+  margin: 0 0 29px;
 }
 
 .link__icon {
@@ -566,7 +563,7 @@ ul {
 }
 
 .content {
-  width: 407px;
+  width: 410px;
 }
 .content_position-center {
   text-align: center;
@@ -578,7 +575,7 @@ ul {
   text-transform: uppercase;
   padding-right: 40px;
   letter-spacing: 0.9px;
-  padding-bottom: 4px;
+  padding-bottom: 3px;
 }
 .content__title_center {
   text-align: center;
@@ -591,7 +588,7 @@ ul {
   font-weight: 500;
   line-height: 2rem;
   color: #4E4E4E;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .content__bottons button {
@@ -607,7 +604,7 @@ ul {
 }
 
 .implement__wrapper {
-  padding: 120px 0 140px;
+  padding: 120px 0 139px;
   display: flex;
   justify-content: flex-start;
 }
@@ -646,9 +643,6 @@ ul {
 }
 .slider__buttons span:hover {
   opacity: 0.5;
-}
-.slider__count{
-  display: flex;
 }
 
 .slider__list {

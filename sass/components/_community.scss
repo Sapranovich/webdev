@@ -1,0 +1,14 @@
+.community{
+  background-color: $color-community;
+  &_card{
+    margin-top: 57px;
+    margin-right: 122px;
+  }
+
+}
+.community__wrapper{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 80px 0 140px;
+}

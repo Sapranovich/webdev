@@ -1,0 +1,16 @@
+.implement{
+  background-color:$color-implement;
+  &_content-position{
+      margin-top: 179px;
+      margin-left: 137px;
+  }
+}
+.implement__wrapper{
+  padding: 120px 0 139px;
+  display: flex;
+  justify-content: flex-start;
+  img{
+    width: 407px;
+    height: 582px;
+  }
+}

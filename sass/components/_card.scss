@@ -1,0 +1,20 @@
+.card {
+  width: 298px;
+  text-align: center;
+}
+.card__photo {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 12px;
+}
+.card__title {
+  color: $color-title;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  margin-bottom: 0px;
+}
+.card__text {
+  color: $color-text;
+  font-weight: 400;
+}
+

@@ -1,0 +1,28 @@
+.content {
+  width: 410px;
+  &_position-center {
+    text-align: center;
+    width: 480px;
+  }
+}
+.content__title {
+  color: $color-title;
+  text-transform: uppercase;
+  padding-right: 40px;
+  letter-spacing: 0.9px;
+  padding-bottom: 3px;
+  &_center {
+    text-align: center;
+    padding-right: 0px;
+  }
+}
+.content__text {
+  @include font($size: 1.4rem, $height: 2rem, $weight: 500);
+  color: $color-text;
+  margin-bottom: 29px;
+}
+.content__bottons {
+  button {
+    margin: 0 13px;
+  }
+}

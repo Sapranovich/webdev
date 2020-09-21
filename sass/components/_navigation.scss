@@ -1,0 +1,19 @@
+.navigation{
+  @include font($size:1.4rem, $height:2.0rem,$weight:500);
+  display: flex;
+  align-items: center;
+}
+.navigation__link{
+  list-style: none;
+  border-bottom: solid 2px transparent;
+  cursor:pointer;
+  margin: 0 45px;
+  @extend %transition;
+  &:hover{
+    color: $background-btn;
+  }
+  &_selected{
+    border-color:$color-title-button;
+    pointer-events: none;
+  }
+}

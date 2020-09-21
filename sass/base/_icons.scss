@@ -1,0 +1,23 @@
+.icon{
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  @extend %transition;
+  &:hover{
+    background-color: $background-btn-hovered;
+  }
+  &_message{
+    background-image: url(../../assets/img/icons/message.svg);
+  }
+  &_facebook{
+    background-image: url(../../assets/img/icons/facebook.svg);
+  }
+  &_insta{
+    background-image: url(../../assets/img/icons/insta.svg);
+  }
+  &_telegram{
+    background-image: url(../../assets/img/icons/telegram.svg);
+  }
+}

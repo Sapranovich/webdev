@@ -1,0 +1,13 @@
+.header {
+  background-color: $color-header;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 25px;
+}
+.header__navigation{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
